@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tecno-Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Tecno-Hub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Course</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Deal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blogs
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Another Blog</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Some Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Register</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" title="Search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- slider -->
+        <section class="mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button type="button" class="btn btn-primary p-2">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button type="button" class="btn btn-primary p-2">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Get Started Digital Learning</h1>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button type="button" class="btn btn-primary p-2">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main class="mt-5">
+        <!-- courses -->
+        <section class="container mt-5">
+            <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 g-4">
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fundamantal of UI/UX Design</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-primary fw-bold"> Price:20$</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Javascript Basic To Advanced</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-primary fw-bold"> Price:20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fullstak Webdevelopment</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-primary fw-bold"> Price:20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Digital Marketing</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-primary fw-bold"> Price:20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Photography Basic Rules</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-primary fw-bold"> Price:20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Motion Grapics</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text text-primary fw-bold"> Price:20$</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg">View All</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <div class="container ">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <img class="w-75" src="images/working.png" alt="">
+                    </div>
+                    <div class="col align-items-center">
+                        <h1>Explore the elerning institute</h1>
+                        <p>There are many option are avilable in inter net sit amet consectetur adipisicing elit.
+                            Ratione natus reiciendis quisquam adipisci est esse autem quia, so i use it?
+                            There are many option are avilable in inter net sit amet consectetur adipisicing elit.
+                            Ratione natus reiciendis quisquam adipisci est esse autem quia, so i use it?</p>
+                        <br>
+                        <p>It is so easy to write on my conputer . So, i'm writing huge of letter on my screen</p>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h1>3.2k+</h1>
+                                <p>online courses</p>
+                            </div>
+                            <div>
+                                <h1>600+</h1>
+                                <p>expert member</p>
+                            </div>
+                            <div>
+                                <h1>1k+</h1>
+                                <p>rating&review</p>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Read more</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- successfull students -->
+        <section class="container mt-5">
+            <div class="container w-50 ">
+                <h1>Meet our successfull <br>
+                    students</h1>
+                <p>There is no lorem in my text amet <br>
+                    consectetur adipisicing elit. Eaque commodi nihil excepturi id, it
+                    is my hand writing</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Awlad Hossain</h5>
+                            <p class="card-text text-muted">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jannatul Islam</h5>
+                            <p class="card-text text-muted"> Motion Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Imran Hossain</h5>
+                            <p class="card-text text-muted"> Grapic Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nishi Akter </h5>
+                            <p class="card-text text-muted"> Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-3">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-lg">View All</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- accordian -->
+        <section class="container mt-5">
+            <div class="d-flex justify-content-center">
+                <div>
+                    <h1>Frequiently Asked Question</h1>
+                    <p>It is a long establish fact that a reader will be distraced <br> readable content of a page when
+                        looking its fact</p>
+                </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What's difference between flex vs grid?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Grid and flexbox. </strong>
+                            The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
+                            designed for layout in one dimension - either a row or a column. Grid was designed for
+                            two-dimensional layout - rows, and columns at the same time.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What's difference between bootsstrap vs tailwind css?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive,
+                                mobile first projects on the web. On the other hand, Tailwind CSS is detailed as "A
+                                utility-first CSS framework for rapid UI development".</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is css box model?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span>
+                                In CSS, the term "box model" is used when talking about design and layout. The CSS box
+                                model is essentially a box that wraps around every HTML element.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is semantic tag?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span>
+                                The HTML semantics refers to the tags that provide meaning to an HTML page rather than
+                                just presentation. It makes HTML more comprehensible by better defining the different
+                                sections and layout of web pages.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- trusted companies -->
+        <section class="container mt-5">
+            <div class="d-flex justify-content-center">
+                <h1 class="fw-bold">Turested by over 800+ conpanies</h1>
+            </div>
+            <div class="container mt-5">
+                <div class="row row-cols-lg-auto  row-cols-sm-1 row-cols-md-4 justify-content-between">
+                    <div class="col"><img src="images/company/company-1.png" alt=""></div>
+                    <div class="col"><img src="images/company/company-2.png" alt=""></div>
+                    <div class="col"><img src="images/company/company-3.png" alt=""></div>
+                    <div class="col"><img src="images/company/company-4.png" alt=""></div>
+                    <div class="col"><img src="images/company/company-5.png" alt=""></div>
+                    <div class="col"><img src="images/company/company-6.png" alt=""></div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="bg-dark mt-5">
+        <div class="d-flex justify-content-center p-5">
+            <div>
+                <h1 class="text-white">Tecno-Hub</h1>
+                <div class="d-block">
+                    <p class="text-white">offic 41,Zawaya Building Ghala Muscat </p>
+                    <p class="text-white">Saltanate, Oman</p>
+                    <p class="text-white">Privacy policy | Tremsof use</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
